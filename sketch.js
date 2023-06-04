@@ -15,16 +15,16 @@ function setup() {
   var canvas = createCanvas(size, size);
   canvas.parent("canvas"); // moves canvas to html div "canvas"
 
-  zIn = createButton("+");
-  zIn.position(1005, 10);
-  zIn.mousePressed(zoomIn);
+  // zIn = createButton("+");
+  // zIn.position(1005, 10);
+  // zIn.mousePressed(zoomIn);
 
-  zOut = createButton("-");
-  zOut.position(1005, 40);
-  zOut.mousePressed(zoomOut);
+  // zOut = createButton("-");
+  // zOut.position(1005, 40);
+  // zOut.mousePressed(zoomOut);
 
-  zIn.parent("button");
-  zOut.parent("button");
+  // zIn.parent("button");
+  // zOut.parent("button");
   restart();
 }
 
@@ -121,6 +121,9 @@ function mouseDragged() {
   clickX = tempX;
   clickY = tempY;
   console.log("dragging" + " " + translateX);
+
+  document.getElementById("reset").classList.add("show");
+  document.getElementById("reset").classList.remove("hide");
 
   generate();
   restart();
