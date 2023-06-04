@@ -16,6 +16,7 @@ body {
 
 #canvas {
   margin: 0 10px;
+  cursor: grab;
 }
 #graph {
   position: relative;
