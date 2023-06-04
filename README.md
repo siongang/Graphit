@@ -4,6 +4,8 @@ Naturally, the program must first be able to graph and generate user inputted gr
 
 
 
+
+
 **2023-06-03**
 
 1st draft complete. 
