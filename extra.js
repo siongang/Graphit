@@ -20,8 +20,8 @@ document.getElementById("out").addEventListener("click", zoomOut);
 document.getElementById("reset").addEventListener("click", zoomReset);
 
 function zoomIn() {
-  xFactor /= 2;
-  yFactor /= 2;
+  yFactor /= 3;
+  // yFactor /= 3;
   if (xFactor != 1) {
     document.getElementById("reset").classList.add("show");
     document.getElementById("reset").classList.remove("hide");
@@ -29,8 +29,8 @@ function zoomIn() {
   restart();
 }
 function zoomOut() {
-  xFactor *= 2;
-  yFactor *= 2;
+  yFactor *= 3;
+  // yFactor *= 3;
   if (xFactor != 1) {
     document.getElementById("reset").classList.add("show");
     document.getElementById("reset").classList.remove("hide");
