@@ -6,7 +6,7 @@ Naturally, the program must be able to graph and generate user inputted graphs. 
 1st draft complete. 
 
 Completed: 
-- navigation mechanics
+- navigation mechanics (zzom, dragging graph)
 - simple graphing mechanics
 
 Todo:
