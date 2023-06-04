@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#screen {
+  display: flex;
+  align-items: center;
+}
+
+#canvas {
+  margin: 0 10px;
+}
+#graph {
+  position: relative;
+}
+#sidebar {
+  justify-content: center;
+  width: 25%;
+}
+
+#text {
+  text-align: center;
+}
+
+#title {
+  cursor: pointer;
+}
+#menu {}
+
+#input {
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+}
+
+button {
+  width: 20px;
+  text-align: center;
+  padding: 0 1px;
+}
+#buttons {
+  position: absolute;
+  left: 90%;
+  top: 2%;
+}
+.button {
+  margin: 5px 0;
+  display: block;
+}
+
+.hide {
+  display:none;
+}
+.show{
+  display: block;
+}

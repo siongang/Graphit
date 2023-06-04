@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+  
+  </head>
+
+  <body>
+
+    <div id = "screen">
+
+      <div id = "sidebar">
+        <div id = "text">
+          <div id="title">
+            <h1>:click me:</h1>
+          </div>
+          <div id = "main" class = "hide">
+            <p>a simple p5.js grapher</p>
+            <p>write equations in java notation </p>
+            <p>f.e: x^2 = pow(x,2)</p>
+          </div>
+       </div>
+      
+        <div id = "menu">
+          <input type = "text" id = "input" placeholder="enter an equation">  
+          <div id = "button"></div>
+        </div>
+
+      </div>  
+
+      <div id = "graph">
+          <div id ="canvas"><div>
+          <div id = "buttons">
+          <button class = "button" id = "in" type = "button">
+            +
+          </button>
+          <button class = "button" id = "out" type = "button">
+            -
+          </button>
+        </div>
+      </div>
+  
+  </div>
+   
+    <script src="sketch.js"></script>
+    <script src="extra.js"></script>
+
+  </body>
+</html>
