@@ -22,18 +22,24 @@ document.getElementById("reset").addEventListener("click", zoomReset);
 function zoomIn() {
   yFactor /= 3;
   // yFactor /= 3;
-  if (xFactor != 1) {
-    document.getElementById("reset").classList.add("show");
+  if (yFactor != 1) {
     document.getElementById("reset").classList.remove("hide");
+    document.getElementById("reset").classList.add("show");
+  } else {
+    document.getElementById("reset").classList.remove("show");
+    document.getElementById("reset").classList.add("hide");
   }
   restart();
 }
 function zoomOut() {
   yFactor *= 3;
   // yFactor *= 3;
-  if (xFactor != 1) {
+  if (yFactor != 1) {
     document.getElementById("reset").classList.add("show");
     document.getElementById("reset").classList.remove("hide");
+  } else {
+    document.getElementById("reset").classList.remove("show");
+    document.getElementById("reset").classList.add("hide");
   }
   restart();
 }
