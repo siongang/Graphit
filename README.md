@@ -8,7 +8,7 @@ Naturally, the program must first be able to graph and generate user inputted gr
 1st draft complete. 
 
 Completed: 
-- navigation mechanics (zzom, dragging graph)
+- navigation mechanics (zoom, dragging graph)
 - simple graphing mechanics
 
 Todo:
