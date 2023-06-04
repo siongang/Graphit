@@ -45,19 +45,18 @@ function generate() {
 }
 
 function keyPressed() {
-  if (keyCode === 83) translateY += 5;
-  if (keyCode === 87) translateY -= 5;
-  if (keyCode === 68) translateX += 5;
-  if (keyCode === 65) translateX -= 5;
+  // if (keyCode === 83) translateY += 5;
+  // if (keyCode === 87) translateY -= 5;
+  // if (keyCode === 68) translateX += 5;
+  // if (keyCode === 65) translateX -= 5;
 
   generate();
-  restart();
+  // restart();
   // sets equation to the input
   if (keyCode === ENTER) {
     equation = temp;
-    console.log(equation);
+    console.log(temp);
     restart();
-    graph();
   }
 }
 
@@ -66,11 +65,10 @@ let yFactor = 1;
 
 function graph() {
   let y;
-  strokeWeight(1.5);
-
   let tX;
   let tY;
   let tempX;
+  strokeWeight(1.5);
 
   // x is init at -size/2 as the graph is shifted where x = 0 is not the center but the most leftside x val.
   // y vals are reflected over x axis and then shifted
