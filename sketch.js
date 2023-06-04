@@ -79,7 +79,7 @@ function graph() {
   // x = -500
   // y = -500 -> y = 500 -> y = 1000
 
-  for (x = -size / 2; x <= size / 2; x = x + 1) {
+  for (x = (-size / 2) * 20; x <= (size / 2) * 20; x = x + 1) {
     eq = equation;
     eq = eq.replace("x", x * xFactor);
 
@@ -100,7 +100,6 @@ function graph() {
     }
   }
 }
-
 
 // the coords of the initial mouse click
 let clickX = 0;
