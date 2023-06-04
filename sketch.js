@@ -101,16 +101,6 @@ function graph() {
   }
 }
 
-function zoomIn() {
-  xFactor /= 2;
-  yFactor /= 2;
-  restart();
-}
-function zoomOut() {
-  xFactor *= 2;
-  yFactor *= 2;
-  restart();
-}
 
 // the coords of the initial mouse click
 let clickX = 0;
