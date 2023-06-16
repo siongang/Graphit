@@ -1,4 +1,4 @@
-# graphs
+# Graphit
 
 The purpose of this p5.js program is to help me learn the different graphs of functions, more specifically, power functions with exponents n/m.
 Naturally, the program must first be able to graph and generate user inputted graphs. After that, the random graph generation can be created. 
